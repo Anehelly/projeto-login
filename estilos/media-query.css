@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 800px) and (max-width: 992px) {/*TABLET*/
+@media screen and (min-width: 900px) and (max-width: 1000px) {/*TABLET*/
 
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -25,7 +25,7 @@
     
 
 
-@media screen and (min-width: 992px) {/*TELAS GRANDES*/
+@media screen and (min-width: 1000px) {/*TELAS GRANDES*/
    
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
