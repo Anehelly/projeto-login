@@ -40,6 +40,9 @@ section#login{
     /*tudo que estiver fora da borda, ficara escondido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.36);
 
+    transition: width .2s, height .2s;/*ANIMAÇÃO */
+    transition-timing-function: ease;
+
 }
 
 section#login > div#imagem{
