@@ -34,13 +34,13 @@ section#login{
     /*para colocar ele no meio da tela*/
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    left: 50%;  
     overflow: hidden;
     /*tudo que estiver fora da borda, ficara escondido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.36);
     transition: width .2s, height .2s;/*ANIMAÇÃO */
     transition-timing-function: ease;
+    transform: translate(-50%,-50%);
 
 
 }
@@ -74,15 +74,36 @@ form > div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid 833cb1 ;
 }
 
 div.campo > label{
     display: none;
 }
+/*anotar*/
+div.campo > span{
+    color: white;
+   
+    font-size: 2.3em;
+    width: 35px;
+}
 
+div.campo > input{
+    background-color: #53b0ad ;
+    font-size: 1em;
+    width: calc(100% - 40.1px);    
+    height: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    transform: translateY(-11.5px);
+}
 
+div.campo > input:focus-within{
+    background-color: white; /*quando for digital o fundo ficará branco*/
+}
+/*ate aqui*/
 form > input[type=submit]{
     display: block;
     font-size: 1em;
