@@ -82,10 +82,9 @@ form > div.campo{
 div.campo > label{
     display: none;
 }
-/*anotar*/
+
 div.campo > span{
-    color: white;
-   
+    color: white;   
     font-size: 2.3em;
     width: 35px;
 }
@@ -103,7 +102,7 @@ div.campo > input{
 div.campo > input:focus-within{
     background-color: white; /*quando for digital o fundo ficará branco*/
 }
-/*ate aqui*/
+
 form > input[type=submit]{
     display: block;
     font-size: 1em;
